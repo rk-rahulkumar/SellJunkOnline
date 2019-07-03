@@ -1,0 +1,83 @@
+.sell-junk-header-wrapper {
+    padding: 0 50px;
+    border-bottom: 1px solid var(--light-grey1);
+}
+
+.sell-junk-header-wrapper .sell-junk-logo,
+.sell-junk-header-wrapper .top-nav-bar {
+	flex: 1;
+}
+
+.sell-junk-header-wrapper .sell-junk-logo img {
+	width: 200px;
+}
+
+ul#side-menu li {
+	padding: 10px 10px;
+}
+.sell-junk-header-wrapper ul.top-nav-bar li {
+	padding: 15px 15px;
+}
+
+ul#side-menu li a,
+.sell-junk-header-wrapper ul.top-nav-bar li a {
+	font-size: 14px;
+    font-weight: 600;
+    color: var(--grey);
+    white-space: nowrap;
+}
+
+ul#side-menu li a:hover,
+ul#side-menu li.active a,
+.sell-junk-header-wrapper ul.top-nav-bar li a:hover,
+.sell-junk-header-wrapper ul.top-nav-bar li.active a {
+	color: var(--dark-grey1);
+}
+
+.sell-junk-header-wrapper ul.top-nav-bar li a:after {
+    display: block;
+    content: '';
+    border-bottom: solid 2px var(--dark-grey1);
+    transform: scaleX(0);
+    -webkit-transition: transform 250ms ease-in-out;
+    -moz-transition: transform 250ms ease-in-out;
+    -ms-transition: transform 250ms ease-in-out;
+    -o-transition: transform 250ms ease-in-out;
+    transition: transform 250ms ease-in-out;
+}
+
+.sell-junk-header-wrapper ul.top-nav-bar li a:hover:after {
+    transform: scaleX(1);
+}
+
+aside.user-actions-container {
+	width: 	190px;
+	overflow: hidden;
+	height: 100%;
+	float: left;
+	border-right: 1px solid var(--light-grey1);
+}
+
+aside.user-actions-container .user-profile-picture {
+	padding: 20px 20px;
+    text-align: center;
+}
+
+aside.user-actions-container .user-profile-picture img {
+	height: 76px;
+	width: 76px;
+	margin-bottom: 15px;
+}
+
+aside.user-actions-container .user-profile-picture > .user-name > span {
+	font-weight: bold;
+}
+
+aside.user-actions-container .user-actions-menu {
+	padding: 23px 0 50px 25px;
+}
+
+aside.user-actions-container + section {
+	width: calc(100% - 191px);
+	float: left;
+}

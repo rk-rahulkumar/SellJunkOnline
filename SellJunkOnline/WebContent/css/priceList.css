@@ -1,0 +1,19 @@
+.sell-junk-online-pricelist-table-wrapper {
+	max-width: 900px;
+	margin: 0 auto;
+	margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+table.sell-junk-online-pricelist-table {
+    min-width: 900px;
+    border: 1px solid var(--light-grey1);
+    box-shadow: 0 0 10px var(--silver);
+    background: var(--grey7);
+    border-radius: 6px;
+}
+
+table.sell-junk-online-pricelist-table thead th,
+table.sell-junk-online-pricelist-table tbody td {
+	font-size: 20px;
+}

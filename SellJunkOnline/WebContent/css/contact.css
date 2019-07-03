@@ -1,0 +1,39 @@
+.sell-junk-contact-detail-wrapper {
+	margin: 0 auto;
+    width: 400px;
+    padding: 50px 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid var(--light-grey1);
+    box-shadow: 0 0 10px var(--silver);
+    background: var(--grey7);
+}
+
+.sell-junk-contact-detail-wrapper h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.sell-junk-contact-detail-wrapper .contact-label-info-container {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.sell-junk-contact-detail-wrapper .contact-label-info-container > div:not(:first-child) {
+	margin-top: 30px;
+}
+
+.sell-junk-contact-detail-wrapper .contact-label-info-container label {
+	width: 150px;
+	font-weight: bold;
+}
+
+.sell-junk-contact-detail-wrapper .contact-label-info-container label + span {
+	font-weight: bold;
+    color: var(--dark-grey2);
+    font-size: 20px;
+}
+
+.sell-junk-contact-detail-wrapper .contact-label-info-container .info-val {
+    margin-left: 20px;
+}

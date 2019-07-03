@@ -1,0 +1,90 @@
+.sell-junk-online-wrapper .new-user-register-marquee-container {
+	padding: 20px 0;
+    font-size: 25px;
+    color: var(--red);
+}
+
+.sell-junk-online-wrapper .new-user-register-marquee-container a,
+.sell-junk-online-wrapper .sell-junk-main-wrapper .sell-junk-login-form-container form a {
+	color: var(--bp-blue);
+}
+
+.sell-junk-online-wrapper .new-user-register-marquee-container a:hover,
+.sell-junk-online-wrapper .sell-junk-main-wrapper .sell-junk-login-form-container form a:hover {
+	color: var(--bp-blue-hover);
+	text-decoration: underline;
+}
+
+.sell-junk-online-wrapper .sell-junk-main-wrapper {
+	padding: 0 65px 30px 80px;
+    border-bottom: 1px solid var(--light-grey1);
+}
+
+.sell-junk-online-wrapper .sell-junk-main-wrapper .sell-junk-info-container,
+.sell-junk-online-wrapper .sell-junk-main-wrapper .sell-junk-login-form-container  {
+	flex: 1;
+}
+
+.sell-junk-online-wrapper .sell-junk-main-wrapper .sell-junk-info-container h1,
+.sell-junk-footer h1 {
+	color: var(--dark-grey1);
+}
+
+.sell-junk-online-wrapper .sell-junk-main-wrapper .sell-junk-info-container h2 {
+	color: var(--grey2);
+}
+
+.sell-junk-online-wrapper .sell-junk-main-wrapper .sell-junk-info-container img {
+	width: 500px;
+}
+
+.sell-junk-online-wrapper .sell-junk-main-wrapper .sell-junk-login-form-container > div {
+	border: 1px solid var(--light-grey1);
+	box-shadow: 0 0 10px var(--silver);
+    padding: 30px 60px;
+    background: var(--grey7);
+}
+
+.sell-junk-online-wrapper .sell-junk-main-wrapper .sell-junk-login-form-container h2 {
+	color: var(--dark-grey2) !important;
+}
+
+.sell-junk-online-wrapper .sell-junk-main-wrapper .sell-junk-login-form-container form {
+	margin-top: 15px;
+	width: 250px;
+}
+
+.sell-junk-online-wrapper .sell-junk-main-wrapper .sell-junk-login-form-container form input:not(.btn) {
+	margin-top: 20px;
+	width: calc(100% - 10px);
+    /* border-radius: 3px;
+    border: 1px solid var(--light-grey);
+    height: 40px;
+    padding-left: 10px; */
+}
+
+.sell-junk-online-wrapper .sell-junk-main-wrapper .sell-junk-login-form-container form input.submit-btn {
+	margin-top: 25px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.sell-junk-online-wrapper .sell-junk-main-wrapper .sell-junk-login-form-container form p.login-error {
+	margin-top: 10px;
+	padding-left: 10px;
+	font-size: 16px;
+	color: var(--red);
+}
+
+.sell-junk-footer {
+	display: flex;
+    justify-content: center;
+}
+
+.sell-junk-footer ul {
+	list-style: circle;
+    padding-left: 15px;
+    margin: 0;
+    color: var(--grey2);
+    font-size: 20px;
+}

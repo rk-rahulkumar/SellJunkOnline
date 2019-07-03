@@ -1,0 +1,28 @@
+.sell-junk-user-home-wrapper {
+	padding: 30px 0;
+}
+.user-home-detail-wrapper {
+	margin: 0 auto;
+    width: 400px;
+    padding: 50px 80px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border: 1px solid var(--light-grey1);
+    box-shadow: 0 0 10px var(--silver);
+    background: var(--grey7);
+}
+.user-home-detail-wrapper .user-home-info-container {
+	margin: 30px auto 0 auto;
+    width: 230px;
+}
+.user-home-detail-wrapper .user-home-info-container > div:not(:first-child) {
+	margin-top: 30px;
+}
+.user-home-detail-wrapper .user-home-info-container label {
+	width: 150px;
+	font-weight: bold;
+	text-align: right;
+}
+.user-home-detail-wrapper .user-home-info-container label + span.info-val {
+    margin-left: 20px;
+}

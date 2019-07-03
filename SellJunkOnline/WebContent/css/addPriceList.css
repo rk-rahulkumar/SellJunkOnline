@@ -1,0 +1,52 @@
+.sell-junk-add-pricelist-form-wrapper {
+	margin: 0 auto;
+    width: 400px;
+    padding: 50px 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid var(--light-grey1);
+    box-shadow: 0 0 10px var(--silver);
+    background: var(--grey7);
+}
+
+.sell-junk-add-pricelist-form-wrapper h1 {
+    text-align: center;
+}
+
+.sell-junk-add-pricelist-form-wrapper form {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.sell-junk-add-pricelist-form-wrapper form .form-label-input-container > div:not(:first-child) {
+	margin-top: 30px;
+}
+
+.sell-junk-add-pricelist-form-wrapper form .form-label-input-container label {
+	width: 115px;
+}
+
+.sell-junk-add-pricelist-form-wrapper form .form-label-input-container input:not(#Price) {
+	width: 250px;
+}
+
+.sell-junk-add-pricelist-form-wrapper form .form-label-input-container .price select {
+	border-radius: 3px;
+    border: 1px solid var(--light-grey);
+    height: 44px; 
+    background: var(--grey5);
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: 0;
+}
+
+.sell-junk-add-pricelist-form-wrapper form .form-label-input-container .price input {
+	width: 190px;
+	border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.sell-junk-add-pricelist-form-wrapper form .sell-junk-add-pricelist-form-action-wrapper {
+	margin-top: 25px;
+    width: 100%;
+}

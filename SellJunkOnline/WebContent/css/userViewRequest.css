@@ -1,0 +1,54 @@
+.sell-junk-view-request-wrapper {
+	padding: 30px 0;
+}
+.sell-junk-request-detail-wrapper .request-details-container {
+	padding: 20px 70px;
+}
+.sell-junk-request-detail-wrapper .request-details-container .no-result-div {
+	font-size: 30px;
+    color: var(--light-grey);
+    border: 1px solid var(--light-grey1);
+    box-shadow: 0 0 10px var(--silver);
+    background: var(--grey7);
+    border-radius: 6px;
+    width: 600px;
+    height: 100px;
+    margin: 0 auto;
+}
+.sell-junk-request-detail-wrapper .request-details-container .request-item {
+	border: 1px solid var(--light-grey1);
+    box-shadow: 0 0 10px var(--silver);
+    background: var(--grey7);
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.sell-junk-request-detail-wrapper .request-item .request-item-info-container {
+	flex: 4;
+}
+.sell-junk-request-detail-wrapper .request-item .request-item-info-container .request-label-info-container > div,
+.sell-junk-request-detail-wrapper .request-item .request-item-actions-container {
+	flex: 1;
+	padding: 10px 20px;
+}
+
+.sell-junk-request-detail-wrapper .request-item .request-item-info-container .request-label-info-container .form-label,
+.sell-junk-request-detail-wrapper .request-item .request-item-info-container .request-label-info-container .info-val {
+	flex: 1;
+	word-break: break-all;
+}
+.sell-junk-request-detail-wrapper .request-details-container .request-item .request-label-info-container .form-label {
+	font-weight: 600;
+	font-size: 16px;
+}
+ .sell-junk-request-detail-wrapper .request-details-container .request-item .request-item-actions-container a {
+ 	padding: 0 11px;
+ 	border-radius: 3px;
+ 	border: 1px solid;
+    width: 99.97px;
+    margin-bottom: 10px;
+    background: var(--white);
+}
+.sell-junk-request-detail-wrapper .request-details-container .request-item .request-item-actions-container .request-cancel-status {
+	color: var(--red);
+}

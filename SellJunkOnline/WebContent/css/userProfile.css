@@ -1,0 +1,74 @@
+.sell-junk-user-profile-wrapper {
+	padding: 30px 0;
+}
+
+aside {
+	width: 	190px;
+	overflow: hidden;
+	height: 100%;
+	float: left;
+}
+
+aside .user-profile-picture {
+	padding: 20px 20px;
+    text-align: center;
+}
+
+aside .user-profile-picture img {
+	height: 76px;
+	width: 76px;
+	margin-bottom: 15px;
+}
+
+aside .user-profile-picture > .user-name > span {
+	font-weight: bold;
+}
+
+aside .user-actions-menu {
+	padding: 23px 0 50px 25px;
+}
+
+section {
+	width: calc(100% - 190px);
+	float: left;
+}
+
+.sell-junk-profile-detail-wrapper {
+	margin: 0 auto;
+    width: 400px;
+    padding: 50px 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid var(--light-grey1);
+    box-shadow: 0 0 10px var(--silver);
+    background: var(--grey7);
+}
+
+.sell-junk-profile-detail-wrapper h1 {
+    text-align: center;
+}
+
+.sell-junk-profile-detail-wrapper .profile-label-info-container {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.sell-junk-profile-detail-wrapper .profile-label-info-container > div:not(:first-child) {
+	margin-top: 30px;
+}
+
+.sell-junk-profile-detail-wrapper .profile-label-info-container label {
+	width: 150px;
+	font-weight: bold;
+}
+
+.sell-junk-profile-detail-wrapper .profile-label-info-container label + span {
+    font-weight: bold;
+    color: var(--dark-grey2);
+    font-size: 20px;
+}
+
+.sell-junk-profile-detail-wrapper .profile-label-info-container .info-val {
+    margin-left: 20px;
+}
+	

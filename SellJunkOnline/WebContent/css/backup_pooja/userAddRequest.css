@@ -1,0 +1,86 @@
+.sell-junk-user-add-request-wrapper {
+	padding: 30px 0;
+}
+
+.sell-junk-add-request-form-wrapper {
+	margin: 0 auto;
+    width: 400px;
+    padding: 50px 80px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border: 1px solid var(--light-grey1);
+    box-shadow: 0 0 10px var(--silver);
+    background: var(--grey7);
+}
+
+.sell-junk-add-request-form-wrapper form {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.sell-junk-add-request-form-wrapper form .form-label-input-container h3 {
+	color: var(--dark-grey2);
+	font-size: 20px;
+	float: left;
+}
+
+.sell-junk-add-request-form-wrapper form .form-label-input-container h3 + .address-edit-actions {
+	margin-left: 10px;
+	float: left;
+}
+
+.sell-junk-add-request-form-wrapper form .form-label-input-container .address-edit-actions .edit-icon {
+	width: 20px;
+	height: 20px;
+}
+
+.sell-junk-add-request-form-wrapper form .form-label-input-container .address-edit-actions #addressEditModeCancelAction {
+	color: var(--red);
+	cursor: pointer;
+}
+
+.sell-junk-add-request-form-wrapper form .form-label-input-container #AddressBlockViewMode,
+.sell-junk-add-request-form-wrapper form .form-label-input-container #AddressBlockEditMode {
+	margin-top: 10px;
+}  
+
+.sell-junk-add-request-form-wrapper form .form-label-input-container .address-val {
+	word-break: break-all;
+} 
+
+/* .sell-junk-add-request-form-wrapper form .form-label-input-container .address-val + .edit-icon {
+	width: 20px;
+    height: 20px;
+    
+} */
+
+.sell-junk-add-request-form-wrapper form .form-label-input-container > div:not(:first-child),
+.sell-junk-add-request-form-wrapper form .form-label-input-container #AddressBlockEditMode > div:not(:first-child) {
+	margin-top: 20px;
+}
+
+.sell-junk-add-request-form-wrapper form .form-label-input-container label {
+	width: 115px;
+}
+
+.sell-junk-add-request-form-wrapper form .form-label-input-container input,
+.sell-junk-add-request-form-wrapper form .form-label-input-container select {
+	width: 250px;
+	margin-left: 20px;
+}
+
+.sell-junk-add-request-form-wrapper form .form-label-input-container .calendar-input-container {
+	position: relative;
+}
+
+.sell-junk-add-request-form-wrapper form .form-label-input-container .calendar-input-container img {
+	position: absolute;
+	top: 8px;
+	right: 5px;
+	cursor: pointer;
+}
+
+.sell-junk-add-request-form-wrapper form .sell-junk-add-request-form-action-wrapper {
+	margin-top: 25px;
+    width: 100%;
+}
